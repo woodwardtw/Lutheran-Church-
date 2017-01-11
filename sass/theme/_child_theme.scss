@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Dancing+Script');
+
+h1, h2, h3, h4, h5 {
+	font-family: $h-font;	
+	margin-top: 10px;
+	display: inline-block;
+}
+
+h2, h3, h4, h5 {
+	border-bottom: 2px solid $brand-primary;
+}
+
+iframe {
+	border: none;
+}
+
+.navbar {
+	padding: 5px 1rem 0 1rem ;
+	background-color: $brand-light;
+	border-bottom: 3px solid $brand-primary;
+}
+
+.navbar #main-menu, .navbar-nav .nav-item {
+	float:right;
+}
+
+.nav-item {
+	border-left: 2px solid $brand-light;
+	margin-top: 5px;
+	background-color: $brand-primary;
+	padding: 4px 10px 5px 10px;
+	min-width: 110px;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: $h-font;
+}
+
+.nav-item:hover {
+	background-color: #efefef;
+}
+
+.nav-link, .nav-link a {
+		color: $brand-light !important;
+}
+
+.nav-link:hover, .nav-link a:hover {
+	color: $brand-primary !important ;
+}
+
+.navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	color: $brand-primary;
+}
+
+#heart {
+	display: inline-block;
+	float: left;
+	width: 55px;
+	margin-right: 20px;
+}
+
+.wrapper {
+	background-color: #fff; /*can go beige or something*/
+}
+
+#primary {
+	background-color: #fff;
+}
+
+.col-md-9 {
+	float:none;
+	margin: 60px auto;
+}
+
+#wrapper-footer, #wrapper-footer a {
+	background-color: $brand-primary;
+	color: $brand-light;
+}
